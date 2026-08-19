@@ -1,0 +1,124 @@
+/* =========================================
+   CSS CODE 03
+   HOW TO ADD CSS
+   ========================================= */
+
+
+/* =========================================
+   1. EXTERNAL CSS
+   ========================================= */
+
+/*
+   External CSS અલગ .css file માં લખાય છે.
+
+   Example:
+
+   <link rel="stylesheet" href="style.css">
+
+   CSS:
+*/
+
+body {
+    background-color: lightgray;
+}
+
+h1 {
+    color: blue;
+}
+
+
+/* =========================================
+   2. INTERNAL CSS
+   ========================================= */
+
+/*
+   Internal CSS HTML ના <style> tag ની અંદર
+   લખવામાં આવે છે.
+
+   Example:
+
+   <style>
+       body {
+           background-color: lightblue;
+       }
+
+       h1 {
+           color: red;
+       }
+   </style>
+*/
+
+
+/* =========================================
+   3. INLINE CSS
+   ========================================= */
+
+/*
+   Inline CSS સીધું HTML element ના style
+   attribute માં લખાય છે.
+
+   Example:
+
+   <h1 style="color: red;">Hello</h1>
+*/
+
+
+/* =========================================
+   EXTERNAL CSS EXAMPLE
+   ========================================= */
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.title {
+    color: #c2185b;
+    text-align: center;
+}
+
+.description {
+    color: #555;
+    font-size: 18px;
+}
+
+
+/* =========================================
+   CSS COMMENTS
+   ========================================= */
+
+/*
+   આ CSS comment છે.
+
+   Browser આ comment ને execute કરતું નથી.
+*/
+
+
+/* Single-line style comment */
+
+.box {
+    width: 300px;
+    height: 200px;
+    background-color: pink;
+}
+
+
+/* =========================================
+   CSS FILE STRUCTURE
+   ========================================= */
+
+/*
+   સામાન્ય રીતે project માં:
+
+   project/
+   │
+   ├── index.html
+   │
+   └── style.css
+
+   index.html માં:
+
+   <link rel="stylesheet" href="style.css">
+
+   અને CSS code style.css માં.
+*/
