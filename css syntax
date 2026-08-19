@@ -1,0 +1,21 @@
+/* CSS Syntax */
+
+p {
+    color: red;
+    text-align: center;
+}
+
+h1 {
+    color: blue;
+    font-size: 40px;
+}
+
+h2 {
+    color: green;
+    font-size: 30px;
+}
+
+div {
+    background-color: yellow;
+    padding: 20px;
+}
