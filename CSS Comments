@@ -1,0 +1,101 @@
+/* =========================================
+   CSS CODE 04
+   CSS COMMENTS
+   ========================================= */
+
+
+/* This is a CSS comment */
+
+
+/*
+   This is a
+   multi-line CSS comment.
+*/
+
+
+/* =========================================
+   COMMENT WITH CSS CODE
+   ========================================= */
+
+h1 {
+    color: red;
+
+    /* Changes the text size */
+    font-size: 40px;
+
+    /* Centers the text */
+    text-align: center;
+}
+
+
+/* =========================================
+   COMMENTING OUT CSS
+   ========================================= */
+
+/*
+p {
+    color: blue;
+    font-size: 20px;
+}
+*/
+
+
+/* =========================================
+   DIFFERENT TYPES OF COMMENTS
+   ========================================= */
+
+/* Header Styling */
+.header {
+    background-color: black;
+}
+
+
+/* Navigation Styling */
+.navbar {
+    padding: 20px;
+}
+
+
+/* Button Styling */
+.button {
+    background-color: pink;
+    color: white;
+}
+
+
+/*
+   Card Section
+   This section contains
+   all card related styles.
+*/
+
+.card {
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+}
+
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: white;
+}
+
+
+/* =========================================
+   IMPORTANT
+   ========================================= */
+
+/*
+   CSS comments are ignored by the browser.
+
+   Syntax:
+
+   /* comment */
+
+   Comments are useful for:
+   - Explaining code
+   - Organizing code
+   - Temporarily disabling code
+*/
