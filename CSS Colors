@@ -1,0 +1,213 @@
+/* =========================================
+   CSS CODE 05
+   CSS COLORS
+   ========================================= */
+
+
+/* =========================================
+   1. CSS COLOR NAMES
+   ========================================= */
+
+.color-name-1 {
+    color: Tomato;
+}
+
+.color-name-2 {
+    color: Orange;
+}
+
+.color-name-3 {
+    color: DodgerBlue;
+}
+
+.color-name-4 {
+    color: MediumSeaGreen;
+}
+
+.color-name-5 {
+    color: Gray;
+}
+
+.color-name-6 {
+    color: SlateBlue;
+}
+
+.color-name-7 {
+    color: Violet;
+}
+
+.color-name-8 {
+    color: LightGray;
+}
+
+
+/* =========================================
+   2. BACKGROUND COLOR
+   ========================================= */
+
+.background-red {
+    background-color: red;
+}
+
+.background-blue {
+    background-color: blue;
+}
+
+.background-green {
+    background-color: green;
+}
+
+.background-yellow {
+    background-color: yellow;
+}
+
+
+/* =========================================
+   3. TEXT COLOR
+   ========================================= */
+
+.text-red {
+    color: red;
+}
+
+.text-blue {
+    color: blue;
+}
+
+.text-green {
+    color: green;
+}
+
+.text-purple {
+    color: purple;
+}
+
+
+/* =========================================
+   4. RGB COLORS
+   ========================================= */
+
+.rgb-red {
+    color: rgb(255, 0, 0);
+}
+
+.rgb-green {
+    color: rgb(0, 128, 0);
+}
+
+.rgb-blue {
+    color: rgb(0, 0, 255);
+}
+
+
+/* RGB BACKGROUND */
+
+.rgb-background {
+    background-color: rgb(255, 99, 71);
+}
+
+
+/* =========================================
+   5. HEX COLORS
+   ========================================= */
+
+.hex-red {
+    color: #ff0000;
+}
+
+.hex-green {
+    color: #008000;
+}
+
+.hex-blue {
+    color: #0000ff;
+}
+
+.hex-pink {
+    color: #c2185b;
+}
+
+
+/* HEX BACKGROUND */
+
+.hex-background {
+    background-color: #ffd6e7;
+}
+
+
+/* =========================================
+   6. HSL COLORS
+   ========================================= */
+
+.hsl-red {
+    color: hsl(0, 100%, 50%);
+}
+
+.hsl-green {
+    color: hsl(120, 100%, 25%);
+}
+
+.hsl-blue {
+    color: hsl(240, 100%, 50%);
+}
+
+
+/* HSL BACKGROUND */
+
+.hsl-background {
+    background-color: hsl(330, 100%, 92%);
+}
+
+
+/* =========================================
+   7. RGBA COLORS
+   ========================================= */
+
+.rgba-red {
+    color: rgba(255, 0, 0, 0.5);
+}
+
+.rgba-blue {
+    color: rgba(0, 0, 255, 0.5);
+}
+
+
+/* RGBA BACKGROUND */
+
+.rgba-background {
+    background-color: rgba(194, 24, 91, 0.5);
+}
+
+
+/* =========================================
+   8. HSLA COLORS
+   ========================================= */
+
+.hsla-red {
+    color: hsla(0, 100%, 50%, 0.5);
+}
+
+.hsla-blue {
+    color: hsla(240, 100%, 50%, 0.5);
+}
+
+
+/* =========================================
+   9. CSS COLOR EXAMPLE
+   ========================================= */
+
+.color-box {
+    background-color: #ffd6e7;
+    color: #c2185b;
+    border: 2px solid #c2185b;
+    padding: 20px;
+}
+
+
+/* =========================================
+   10. COLOR WITH OPACITY
+   ========================================= */
+
+.transparent-color {
+    background-color: rgba(255, 99, 71, 0.4);
+}
