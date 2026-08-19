@@ -1,0 +1,93 @@
+/* =========================================
+   CSS SELECTORS
+   ========================================= */
+
+/* 1. Element Selector */
+p {
+    color: red;
+}
+
+
+/* 2. ID Selector */
+#heading {
+    color: blue;
+}
+
+
+/* 3. Class Selector */
+.intro {
+    color: green;
+}
+
+
+/* 4. Universal Selector */
+* {
+    box-sizing: border-box;
+}
+
+
+/* 5. Grouping Selector */
+h1, h2, p {
+    font-family: Arial, sans-serif;
+}
+
+
+/* 6. Element with Class Selector */
+p.intro {
+    font-size: 20px;
+}
+
+
+/* 7. Multiple Classes */
+.box {
+    width: 200px;
+    padding: 20px;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+
+/* 8. Element Selector with Multiple Elements */
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+
+/* 9. ID with Class */
+#main.box {
+    background-color: lightblue;
+}
+
+
+/* 10. Attribute Selector */
+a[target] {
+    color: purple;
+}
+
+
+/* 11. Attribute with Specific Value */
+input[type="text"] {
+    border: 2px solid black;
+}
+
+
+/* 12. Attribute Starts With Value */
+a[href^="https"] {
+    color: green;
+}
+
+
+/* 13. Attribute Ends With Value */
+a[href$=".pdf"] {
+    color: red;
+}
+
+
+/* 14. Attribute Contains Value */
+a[href*="google"] {
+    color: orange;
+}
